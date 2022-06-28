@@ -1,10 +1,7 @@
 # Election_Analysis
 Performing analysis on Election data to uncover trends.
 ## Overview of Project
-This weeks challenge helps us build upon our skills learned in the VBA module. The client wants to do a do research for his parents. He'd like to possibly expand the dataset to the entire stock market over the last few years.
-
-Explain the purpose of this election audit analysis.
-The purpose of this election analysis audit is well defined. (3 pt)
+This weeks challenge helps us build upon our skills learned in the python module. For deliverables, the client wanted aditional information analyzed from the election results.  To complete the audit, for loops, conditional statements with memberships and logical operators were used to investigate parameters such as percentage vote by county, voter and county turnout.
 
 ## Results
 The analysis had few tasks. First, a solution code was refractored to loop through all stock data one time in order to collect the same information that you did in this module. Then, it was determined if that our refactored code successfully performed better than the original script, the results shown below.
