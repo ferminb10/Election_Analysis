@@ -20,7 +20,8 @@ There is a bulleted list where each election outcome is addressed. (7 pt)
 
 ### Election Results
 ![election_results](https://user-images.githubusercontent.com/107658895/176082445-ede641f1-8329-431c-8e59-a02f2ff13f01.png)
-####The figure above shows the election results.
+
+#### The figure above shows the election results.
 
 # Code:
 """PyPoll Homework Challenge Solution."""
