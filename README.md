@@ -16,11 +16,11 @@ In this congressional election, there were 369,711 votes that were cast. Provide
 
 Below is a breakdown of the number of votes and their respective percentage of the total votes each candidate recieved. The canidate that won was Diana DeGette and the runners up in decending order by total votes are shown below:
 * Diana DeGette
-  * 272,892 (73.8%)    
+  * 272,892 votes (73.8%)    
 * Charles Casper Stockham
-  * 85,213 (23.0%)
+  * 85,213 votes (23.0%)
 * Raymon Anthony Doane
-  * 11,606 (3.1%)
+  * 11,606 votes (3.1%)
 
 ### Figure 1: Election Results Summary
 ![election_results](https://user-images.githubusercontent.com/107658895/176082445-ede641f1-8329-431c-8e59-a02f2ff13f01.png)
