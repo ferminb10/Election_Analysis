@@ -13,6 +13,7 @@ The analysis had few tasks. For deliverable 1, votes for counties and candidates
 
 In this congressional election, there were 369,711 votes that were cast. Provided below are the counties with the largest number of votes in decending order:
 * Denver
+
         -306,055 votes (82.8%)
 - Jefferson 
         -38,855 votes (10.5%)
