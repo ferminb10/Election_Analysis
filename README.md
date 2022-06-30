@@ -22,9 +22,9 @@ Below is a breakdown of the number of votes and their respective percentage of t
 * Raymon Anthony Doane
   * 11,606 votes (3.1%)
 
-### Figure 1: Election Results Summary
+### Election Results Summary
 ![election_results](https://user-images.githubusercontent.com/107658895/176082445-ede641f1-8329-431c-8e59-a02f2ff13f01.png)
-##### Figure 1 displays the election results that were printed on the terminal and text file
+##### Figure 1 above displays the election results that were printed on the terminal and text file
 
 
 # Code:
