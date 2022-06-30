@@ -6,11 +6,6 @@ This weeks challenge helps us build upon our skills learned in the python module
 ## Results
 The analysis had few tasks. For deliverable 1, votes for counties and candidates and the winning election results were required to be printed on the terminal, shown in Figure 1. It was key to generate dictionaries and lists with the data contained in CVS file to fulfill the requirements.
 
-### Figure 1: Election Results
-![election_results](https://user-images.githubusercontent.com/107658895/176082445-ede641f1-8329-431c-8e59-a02f2ff13f01.png)
-
-##### Figure 1 shows the election results that were printed on the terminal
-
 In this congressional election, there were 369,711 votes that were cast. Provided below are the counties with the largest number of votes in decending order:
 * Denver
   * 306,055 votes (82.8%)
@@ -27,15 +22,10 @@ Below is a breakdown of the number of votes and their respective percentage of t
 * Raymon Anthony Doane
   * 11,606 (3.1%)
 
-Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
+### Figure 1: Election Results Summary
+![election_results](https://user-images.githubusercontent.com/107658895/176082445-ede641f1-8329-431c-8e59-a02f2ff13f01.png)
 
-How many votes were cast in this congressional election?
-Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-Which county had the largest number of votes?
-Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-There is a bulleted list where each election outcome is addressed. (7 pt)
-
+##### Figure 1 displays the election results that were printed on the terminal
 
 
 ### Figure 1: Election Results
