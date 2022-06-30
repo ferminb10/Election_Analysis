@@ -25,41 +25,39 @@ There is a bulleted list where each election outcome is addressed. (7 pt)
 
 # Code:
 
-#Add our dependencies.
+    #Add our dependencies.
+    import csv
+    import os
 
-import csv
-import os
+    #Add a variable to load a file from a path.
+    file_to_load = os.path.join( "Resources", "election_results.csv")
+    
+    #Add a variable to save the file to a path.
+    file_to_save = os.path.join("analysis", "election_analysis.txt")
 
-#Add a variable to load a file from a path.
+    #Initialize a total vote counter.
+    total_votes = 0
 
-file_to_load = os.path.join( "Resources", "election_results.csv")
-#Add a variable to save the file to a path.
-file_to_save = os.path.join("analysis", "election_analysis.txt")
+    #Candidate Options and candidate votes.
+    candidate_options = []
+    candidate_votes = {}
 
-#Initialize a total vote counter.
+    #1: Create a county list and county votes dictionary.
+    county_list = []
+    county_votes = {}
 
-total_votes = 0
+    #Track the winning candidate, vote count and percentage
+    winning_candidate = ""
+    winning_count = 0
+    winning_percentage = 0
 
-#Candidate Options and candidate votes.
-candidate_options = []
-candidate_votes = {}
+    #2: Track the largest county and county voter turnout.
+    largest_county_turnout = ""
+    largest_county_turnout_count = 0
+    largest_county_percentage = 0
 
-#1: Create a county list and county votes dictionary.
-county_list = []
-county_votes = {}
-
-#Track the winning candidate, vote count and percentage
-winning_candidate = ""
-winning_count = 0
-winning_percentage = 0
-
-#2: Track the largest county and county voter turnout.
-largest_county_turnout = ""
-largest_county_turnout_count = 0
-largest_county_percentage = 0
-
-#Read the csv and convert it into a list of dictionaries
-with open(file_to_load) as election_data:
+    #Read the csv and convert it into a list of dictionaries
+    with open(file_to_load) as election_data:
     # Read the file object with the reader function.
     reader = csv.reader(election_data)
 
