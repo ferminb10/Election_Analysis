@@ -1,11 +1,18 @@
 # Election_Analysis
 Performing analysis on Election data to uncover trends.
 ## Overview of Project
-This weeks challenge helps us build upon our skills learned in the python module. For deliverables, the client wanted aditional information analyzed from the election results.  To complete the audit, for loops, conditional statements with memberships and logical operators were used to investigate parameters such as percentage vote by county, voter and county turnout.
+This weeks challenge helps us build upon our skills learned in the python module. For deliverables, the client wanted additional information analyzed from the election results. To complete the audit, for loops, conditional statements with memberships and logical operators were used to investigate parameters such as percentage vote by county, voter and county turnout. To concluded the summary, a text file was generated to record the findings.
 
 ## Results
-The analysis had few tasks. First, a solution code was refractored to loop through all stock data one time in order to collect the same information that you did in this module. Then, it was determined if that our refactored code successfully performed better than the original script, the results shown below.
+The analysis had few tasks. For deliverable 1, votes for counties and candidates and the winning election results were required to be printed on the terminal, shown in Figure 1. It was key to generate dictionaries and lists with the data contained in CVS file to fulfill the requirements.
 
+### Figure 1: Election Results
+![election_results](https://user-images.githubusercontent.com/107658895/176082445-ede641f1-8329-431c-8e59-a02f2ff13f01.png)
+
+#### Figure 1 shows the election results that were printed on the terminal
+
+- 369,711 votes were cast in this congressional election
+- 
 
 Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 
@@ -18,10 +25,10 @@ There is a bulleted list where each election outcome is addressed. (7 pt)
 
 
 
-### Election Results
+### Figure 1: Election Results
 ![election_results](https://user-images.githubusercontent.com/107658895/176082445-ede641f1-8329-431c-8e59-a02f2ff13f01.png)
 
-#### The figure above shows the election results.
+#### Figure 1 shows the election results that were printed on the terminal
 
 # Code:
 
