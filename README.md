@@ -4,7 +4,7 @@ Performing analysis on Election data to uncover trends.
 This weeks challenge helps us build upon our skills learned in the python module. For deliverables, the client wanted additional information analyzed from the election results. To complete the audit, for loops, conditional statements with memberships and logical operators were used to investigate parameters such as percentage vote by county, voter and county turnout. To concluded the summary, a text file was generated to record the findings.
 
 ## Results
-The analysis had few tasks. For deliverable 1, votes for counties and candidates and the winning election results were required to be printed on the terminal, shown in Figure 1. It was key to generate dictionaries and lists with the data contained in CVS file to fulfill the requirements.
+The analysis had few tasks. For deliverable 1, votes for counties and candidates and the winning election results were required to be printed on the terminal, shown in Figure 1. Deliverable 2 required this data to be generated in a text file. It was a key element to generate dictionaries and lists with the data contained in CVS file to fulfill the requirements.
 
 In this congressional election, there were 369,711 votes that were cast. Provided below are the counties with the largest number of votes in decending order:
 * Denver
@@ -202,6 +202,4 @@ with open(file_to_save, "w") as txt_file:
 
 
 ## Summary
-
-
 Based on the functionality of this script, it's propose can be used for other elections big or small. It would be an interesting parameter to see the geographical location of each person who voted and create a heat map. This will give valuable information of where to do more outreaching to get a more wholistic representation of the local population. The limitations of this dataset are that they only limit a few parameters. It would also be interesting to see the age groups and genders that participated in the election so that the parties can go about better strategizing for target audiences they struggled at. 
