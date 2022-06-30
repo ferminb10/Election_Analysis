@@ -24,7 +24,6 @@ There is a bulleted list where each election outcome is addressed. (7 pt)
 #### The figure above shows the election results.
 
 # Code:
-#"""PyPoll Homework Challenge Solution."""
 
 #Add our dependencies.
 import csv
@@ -96,7 +95,7 @@ with open(file_to_load) as election_data:
             #4b: Add the existing county to the list of counties.
             county_list.append(county_name)
 
-            # 4c: Begin tracking the county's vote count.
+            #4c: Begin tracking the county's vote count.
             county_votes[county_name] = 0
 
         #5: Add a vote to that county's vote count.
@@ -106,7 +105,7 @@ with open(file_to_load) as election_data:
 #Save the results to our text file.
 with open(file_to_save, "w") as txt_file:
 
-    # Print the final vote count (to terminal)
+    #Print the final vote count (to terminal)
     election_results = (
         f"\nElection Results\n"
         f"-------------------------\n"
