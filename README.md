@@ -24,14 +24,8 @@ Below is a breakdown of the number of votes and their respective percentage of t
 
 ### Figure 1: Election Results Summary
 ![election_results](https://user-images.githubusercontent.com/107658895/176082445-ede641f1-8329-431c-8e59-a02f2ff13f01.png)
+##### Figure 1 displays the election results that were printed on the terminal and text file
 
-##### Figure 1 displays the election results that were printed on the terminal
-
-
-### Figure 1: Election Results
-![election_results](https://user-images.githubusercontent.com/107658895/176082445-ede641f1-8329-431c-8e59-a02f2ff13f01.png)
-
-#### Figure 1 shows the election results that were printed on the terminal
 
 # Code:
 
@@ -208,11 +202,6 @@ with open(file_to_save, "w") as txt_file:
 
 
 ## Summary
-Based on the results of this test the refractered code was a more efficient version of the original script. This is one of the benefits of refractoring code. You can take code and try to optimize. The limitations of this dataset is that it only provides a small dataset. This script doesn't do a good job of testing its limits. I was curious to know how long it would take to run the S&P 500. One of the disadvantages of refractoring code for the particular application of analyzing thousands of stocks is that the program may take a long time to execute. You can easily make this to your advantage if you're well educated in economics and have it tailored to a specific set that you want. The refractored script proved to be a much more efficient than the original based on the executed times. The faster it can be the more applicible it can be for a wider range of datasets.
 
 
-
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
-There is a statement to the election commission that explores how this script can be used for any election, with two examples for modifying the script. (4 pt)
-
-
+Based on the functionality of this script, it's propose can be used for other elections big or small. It would be an interesting parameter to see the geographical location of each person who voted and create a heat map. This will give valuable information of where to do more outreaching to get a more wholistic representation of the local population. The limitations of this dataset are that they only limit a few parameters. It would also be interesting to see the age groups and genders that participated in the election so that the parties can go about better strategizing for target audiences they struggled at. 
